@@ -10,10 +10,12 @@ function trocarIcon (){
         icon.style.display = "none"
         icon2.style.display = "block"
         menu.style.position = "relative"
+        menu.style.display = "block"; 
 
         icon2.addEventListener("click", function(){
             icon.style.display = "block"
             icon2.style.display = "none"
+            menu.style.display = "none"
             menu.style.position = "absolute"
         })
 
